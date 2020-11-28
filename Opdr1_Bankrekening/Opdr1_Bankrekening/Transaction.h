@@ -7,5 +7,5 @@ class Transaction {
 		Transaction(bool dep, float amo, std::string dat);
 		bool depreciation;
 		double amount;
-		std::string mdy;
+		std::string date;
 };

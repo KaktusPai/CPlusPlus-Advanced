@@ -6,5 +6,4 @@ class BankAccount {
 	public:
 		float balance;
 		void addTransaction(Transaction* transaction);
-		std::vector<Transaction*> history;
 };
