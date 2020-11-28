@@ -5,5 +5,5 @@
 Transaction::Transaction(bool dep, float amo, std::string dat) {
 	this->depreciation = dep;
 	this->amount = amo;
-	this->mdy = dat;
+	this->date = dat;
 }

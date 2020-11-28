@@ -14,7 +14,12 @@ int main()
     Transaction* t1 = new Transaction(false, 3.50, date1);
     Transaction* t2 = new Transaction(true, 1.50, date2);
     Transaction* t3 = new Transaction(false, 5.75, date3);
-    bankAccount.addTransaction(t1);
-    bankAccount.addTransaction(t2);
-    bankAccount.addTransaction(t3);
+
+    bankAccount += t1;
+    bankAccount += t2;
+    bankAccount += t3;
+    
+
+    std::cout << bankAccount << std::endl;
+
 }
